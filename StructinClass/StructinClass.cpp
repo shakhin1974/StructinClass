@@ -2,12 +2,8 @@
 #include <string>
 #include<windows.h>
 using namespace std;
-
-
-
 class Byear
 {
-
 public:
 	struct Uyear
 	{
@@ -27,7 +23,6 @@ private:
 	int mPost;
 	int yPost;
 };
-
 Byear::Byear(int dPost, int mPost, int yPost )
 {
 	this->dPost = dPost;
@@ -36,9 +31,7 @@ Byear::Byear(int dPost, int mPost, int yPost )
 	this->st.day = st.day;
 	this->st.month = st.month;
 	this->st.year = st.year;
-
 }
-
 Byear::~Byear()
 {
 }
@@ -51,9 +44,7 @@ Byear::~Byear()
 	int a = B1.st.day = now.wDay;
 	int b = B1.st.month = now.wMonth;
 	int c = B1.st.year = now.wYear;
-
 	cout << B1.st.day << " " << B1.st.month << " " << B1.st.year << endl;
 	B1.Vichisli();
- 	 
  }
  
