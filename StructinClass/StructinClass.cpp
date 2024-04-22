@@ -18,10 +18,17 @@ void Vichisli()
 	<< (mPost - st.month) -1  <<"  До окончания  колледжа " <<4 - (st.year - yPost)   <<endl; 	
 }
 
-private: int dPost; int mPost; int yPost; };
+private: 
+int dPost; 
+int mPost; 
+int yPost; 
+
+};
 Pyear::Pyear(int dPost, int mPost, int yPost )
-{ this->dPost = dPost; this->mPost = mPost; this -> yPost = yPost;
-	this->st.day = st.day; this->st.month = st.month; this->st.year = st.year; }
+{ 
+	this->dPost = dPost; this->mPost = mPost; this -> yPost = yPost;
+	this->st.day = st.day; this->st.month = st.month; this->st.year = st.year; 
+}
  int main()
 { 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
