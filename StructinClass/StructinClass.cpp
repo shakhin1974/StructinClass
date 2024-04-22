@@ -32,6 +32,6 @@ Pyear::Pyear(int dPost, int mPost, int yPost )
 	OIBAS1222.st.month = now.wMonth;
 	OIBAS1222.st.year = now.wYear;
 	cout << OIBAS1222.st.day << " " << OIBAS1222.st.month << " " << OIBAS1222.st.year << endl;
-	B1.Vichisli();
+	OIBAS1222.Vichisli();
  }
  
