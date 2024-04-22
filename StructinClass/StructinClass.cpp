@@ -3,11 +3,21 @@
 #include<windows.h>
 using namespace std;
 class Pyear
-{public:
-	struct Uyear { 	int day;  int month; 	int year; } st;
+{
+public:
+struct Uyear 
+{ 	
+	int day;  
+	int month; 	
+	int year; 
+} st;
 	Pyear(int , int,  int  ); 
-void Vichisli()  { cout<<"Осталось дней = "<<30 - dPost - st.day << " месяцев = " 
-	<< (mPost - st.month) -1  <<"  До окончания  колледжа " <<4 - (st.year - yPost)   <<endl; 	}
+void Vichisli()
+{ 
+	cout<<"Осталось дней = "<<30 - dPost - st.day << " месяцев = " 
+	<< (mPost - st.month) -1  <<"  До окончания  колледжа " <<4 - (st.year - yPost)   <<endl; 	
+}
+
 private: int dPost; int mPost; int yPost; };
 Pyear::Pyear(int dPost, int mPost, int yPost )
 { this->dPost = dPost; this->mPost = mPost; this -> yPost = yPost;
