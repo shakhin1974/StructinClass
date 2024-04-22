@@ -15,13 +15,13 @@ Pyear::Pyear(int dPost, int mPost, int yPost )
  int main()
 { 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	Pyear B1(1, 9, 2022 );
+	Pyear OIBAS1222(1, 9, 2022 );
 	SYSTEMTIME now;
 	GetSystemTime(&now);
-	int a = B1.st.day = now.wDay;
-	int b = B1.st.month = now.wMonth;
-	int c = B1.st.year = now.wYear;
-	cout << B1.st.day << " " << B1.st.month << " " << B1.st.year << endl;
+	OIBAS1222.st.day = now.wDay;
+	OIBAS1222.st.month = now.wMonth;
+	OIBAS1222.st.year = now.wYear;
+	cout << OIBAS1222.st.day << " " << OIBAS1222.st.month << " " << OIBAS1222.st.year << endl;
 	B1.Vichisli();
  }
  
